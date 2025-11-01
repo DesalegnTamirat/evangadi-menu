@@ -1,11 +1,7 @@
 import { Component } from "react";
-
+import "./App.css";
 export default class App extends Component {
   render() {
-    return (
-      <>
-        <h1>Evangadi Setup</h1>
-      </>
-    );
+    return <div class="all-container"></div>;
   }
 }
