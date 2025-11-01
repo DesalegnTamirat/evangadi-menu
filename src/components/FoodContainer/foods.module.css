@@ -6,3 +6,18 @@
   max-width: 1240px;
   margin: 0 auto;
 }
+
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .foodsContainer {
+    max-width: 960px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .foodsContainer {
+    max-width: 440px;
+    grid-template-columns: 1fr;
+  }
+}

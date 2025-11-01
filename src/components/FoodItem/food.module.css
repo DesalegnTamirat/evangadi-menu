@@ -47,3 +47,13 @@
   font-size: 15px;
   font-weight: 300;
 }
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .singleFood {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 36px;
+  }
+}
