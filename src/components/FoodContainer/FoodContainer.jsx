@@ -7,9 +7,9 @@ export default class FoodContainer extends Component {
   render() {
     return (
       <div className={styles.foodsContainer}>
-        <FoodItem {...menu[0]} />
-        <FoodItem {...menu[1]} />
-        <FoodItem {...menu[2]} />
+        {menu.map((food) => (
+          <FoodItem key={food.id} {...food} />
+        ))}
       </div>
     );
   }
