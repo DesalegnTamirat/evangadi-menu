@@ -13,7 +13,7 @@ export default class FoodItem extends Component {
           <h3>{title}</h3>
           <p>${price}</p>
         </div>
-        <div className={styles.foodDesc}>{desc}</div>
+        <div className={styles.foodDesc}>{desc.slice(0, 290)}...</div>
       </div>
     );
   }
